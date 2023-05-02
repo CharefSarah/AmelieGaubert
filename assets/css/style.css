@@ -38,9 +38,9 @@ body {
 }
 
 ::selection {
-    background: var(--accent__blue);
-    color: var(--bg__light);
-  }
+  background: var(--accent__blue);
+  color: var(--bg__light);
+}
 
 a {
   color: var(--font__light);
@@ -167,6 +167,7 @@ header {
 }
 
 @media only screen and (max-width: 500px) {
+
   .prev,
   .next {
     font-size: 12px;
@@ -175,6 +176,7 @@ header {
 }
 
 @media only screen and (max-width: 200px) {
+
   .prev,
   .next {
     font-size: 9px;
@@ -676,9 +678,11 @@ footer {
   justify-content: center;
 
 }
+
 form {
   width: 100%;
 }
+
 input {
   margin-block: 1rem;
   width: 100%;
@@ -689,7 +693,7 @@ input {
   padding-inline: 0.5rem;
 }
 
-.text__area{
+.text__area {
   resize: both;
   overflow: scroll;
 }
@@ -699,23 +703,25 @@ input {
   text-align: left;
 }
 
-.btn-default{
-    background-color: var(--color-text);
-    border: 2px solid var(--font__light);
-    width: 90%;
-    height: 40px;
+.btn-default {
+  background-color: var(--color-text);
+  border: 2px solid var(--font__light);
+  width: 90%;
+  height: 40px;
 
-} 
-.container__btn{
-    margin-top: 2rem;
-    border: 2px solid var(--font__light);
-   height: 60px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
+
+.container__btn {
+  margin-top: 2rem;
+  border: 2px solid var(--font__light);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .rs {
   display: flex;
   flex-direction: column;
@@ -732,11 +738,13 @@ input {
   height: 8rem;
   padding-left: 30%;
 }
+
 .twitter__container img {
   height: 3rem;
   width: 3rem;
   margin-right: 2rem;
 }
+
 .mention {
   width: 100%;
   height: 20vh;
@@ -747,28 +755,29 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../img/placeholder/eerie-dark-castle-illustration.jpg);
+  background-color: var(--bg__dark);
   margin-top: 5rem;
 }
+
 .image__deco {
-    position: relative;
-    width: 500px;
-    height: 400px;
-    overflow: hidden;
-  }
-  
-  .image__deco img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .image__deco img:not(:first-child) {
-    opacity: 0;
-  }
+  position: relative;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image__deco img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image__deco img:not(:first-child) {
+  opacity: 0;
+}
 
 .row__image {
   padding: 1rem;
@@ -787,7 +796,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 
 }
 
@@ -845,7 +854,7 @@ input {
 }
 
 .active {
-  
+
   display: block;
 }
 
