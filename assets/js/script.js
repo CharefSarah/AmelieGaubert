@@ -132,11 +132,11 @@ function createImageSwitcher(imgContainer, enableZoom) {
     if (isMobileDevice()) {
       // Code spécifique pour les appareils mobiles
       var link = document.createElement('a');
-      link.href = 'assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf';
-      link.download = 'assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf';
+      link.href = 'assets/pdf/cv.pdf';
+      link.download = 'assets/pdf/cv.pdf';
       link.click();
     } else {
       // Code pour les ordinateurs de bureau
-      window.open('assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf');
+      window.open('assets/pdf/cv.pdf');
     }
   }
