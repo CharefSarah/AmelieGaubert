@@ -214,12 +214,14 @@ li {
   top: 0;
   z-index: 999;
 }
-
+section{
+  overflow-x: hidden;
+}
 .pres {
   height: 100%;
   width: 100%;
   padding-inline: 5rem;
-  padding-top: 5rem;
+  
 }
 
 h3 {
@@ -381,100 +383,6 @@ hr {
   padding-inline: 5rem;
 
 
-}
-
-
-
-
-.product {
-  height: 5.5rem;
-  width: 5.5rem;
-  border-radius: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-
-.progress__container {
-  height: 100%;
-  width: 55%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-}
-
-.progressbar {
-  border: 1px var(--bg__light) solid;
-  width: 240px;
-  height: 18px;
-  border-radius: 50px;
-  background-color: var(--bg__dark);
-  position: relative;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.progressbar:after {
-  position: absolute;
-  content: "";
-  width: 75%;
-  height: 100%;
-  border-radius: 50px;
-  top: 0;
-  left: 0;
-}
-
-.indesign__bar:after {
-  background-color: #c83072;
-}
-
-.illustrator__bar:after {
-  background-color: #ff9a00 !important;
-  width: 60%;
-}
-
-.photoshop__bar:after {
-  background-color: #31a8ff !important;
-  width: 85%;
-}
-
-.xd__bar:after {
-  background-color: #ff61f6 !important;
-  width: 70%;
-}
-
-.web__a__bar:after {
-  background-color: #bf392a !important;
-  width: 60%;
-}
-
-.clipstudio__bar:after {
-  background-color: #808080 !important;
-  width: 30%;
-}
-
-.cinema4d__bar:after {
-  background-color: #0f2c85 !important;
-  width: 45%;
-}
-
-.code__skill {
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.codes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
 }
 
 
@@ -691,7 +599,7 @@ input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.0);
-  width: 65%;
+  width: 85%;
   height: 85%;
   max-width: none;
   max-height: none;

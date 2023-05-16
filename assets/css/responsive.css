@@ -45,13 +45,14 @@
         overflow: hidden;
 
     }
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 80%;
         height: 75%;
-    
+
     }
 }
 
@@ -81,16 +82,18 @@
         width: 85%;
         text-align: center;
     }
-    .pres{
+
+    .pres {
         margin-top: 5rem;
     }
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 80%;
         height: 70%;
-    
+
     }
 
 
@@ -114,10 +117,10 @@
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 80%;
-        height: 65%;
-    
+        height: 80%;
+
     }
 
     .info__contact {
@@ -208,20 +211,21 @@
     }
 
     .cover__section {
-        margin-bottom: 8rem;
+      
         width: 100%;
     }
 
 }
 
 @media screen and (max-width: 750px) {
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 85%;
         height: 55%;
-    
+
     }
 
     .infos h1 {
@@ -261,6 +265,12 @@
     .footer__contact {
         border-right: 0px !important;
         border-right: none;
+    }
+
+    .cover__section {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        margin: 0;
     }
 }
 
@@ -412,36 +422,60 @@
 
         padding-left: 1rem;
     }
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 85%;
         height: 40%;
-    
+
     }
 }
 
 
 
 @media screen and (max-width: 550px) {
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 85%;
         height: 35%;
-    
+
     }
 }
 
 @media screen and (max-width: 400px) {
+
     .image__deco4 img.zoomed,
     .image__deco5 img.zoomed,
     .image__deco6 img.zoomed {
-    
+
         width: 85%;
         height: 25%;
-    
+
+    }
+
+    .image__deco {
+        position: relative;
+        width: 380px;
+        height: 280px;
+        overflow: hidden;
+
+    }
+
+    .pres {
+        height: 100%;
+        width: 100%;
+        padding-inline: 1rem;
+        padding-top: 1rem;
+    }
+
+    .cover__section {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        margin: 0;
     }
 }
