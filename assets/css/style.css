@@ -263,7 +263,8 @@ hr {
 
 /* Images réutilisées plusieurs fois  */
 .cover__section {
-  margin-top: 8rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
   width: 100%;
 }
 
