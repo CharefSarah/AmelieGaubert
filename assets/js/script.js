@@ -123,3 +123,20 @@ function createImageSwitcher(imgContainer, enableZoom) {
   createImageSwitcher(document.querySelector('.image__deco4'), true);
   createImageSwitcher(document.querySelector('.image__deco5'), true);
   createImageSwitcher(document.querySelector('.image__deco6'), true);
+
+  function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  }
+  
+  function downloadPDF() {
+    if (isMobileDevice()) {
+      // Code spécifique pour les appareils mobiles
+      var link = document.createElement('a');
+      link.href = 'assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf';
+      link.download = 'assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf';
+      link.click();
+    } else {
+      // Code pour les ordinateurs de bureau
+      window.open('assets/pdf/CV Fleurs sans numero et adresse Amélie 2022.pdf');
+    }
+  }
